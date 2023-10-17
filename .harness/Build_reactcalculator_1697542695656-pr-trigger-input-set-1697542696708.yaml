@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1697542695656-pr-trigger-input-set
+  identifier: Build_reactcalculator_1697542695656prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: reactcalculator
+  pipeline:
+    identifier: Build_reactcalculator_1697542695656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
